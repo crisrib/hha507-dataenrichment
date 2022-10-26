@@ -35,4 +35,4 @@ mergedDF = pd.merge(SPARCSsmall, neighborhoodAtlasDFsmall, how='left', left_on='
 mergedDF.shape
 
 # Merged df to csv
-mergedDF.to_csv('combined_data.csv')
+mergedDF.to_csv('mergedDF.csv')
